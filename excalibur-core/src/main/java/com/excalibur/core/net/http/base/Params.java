@@ -8,7 +8,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author Yangz
  * @version 14-5-21
  */
 

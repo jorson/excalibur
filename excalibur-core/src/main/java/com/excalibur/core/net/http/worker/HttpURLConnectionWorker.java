@@ -1,11 +1,11 @@
 package com.excalibur.core.net.http.worker;
 
 import android.content.Context;
-import com.nd.hy.android.core.device.UserAgentUtils;
-import com.nd.hy.android.core.net.http.base.ConnectionResult;
-import com.nd.hy.android.core.net.http.base.Method;
-import com.nd.hy.android.core.net.http.exception.ConnectionException;
-import com.nd.hy.android.core.util.Ln;
+import com.excalibur.core.device.UserAgentUtils;
+import com.excalibur.core.net.http.base.ConnectionResult;
+import com.excalibur.core.net.http.base.Method;
+import com.excalibur.core.net.http.exception.ConnectionException;
+import com.excalibur.core.util.Ln;
 import org.apache.http.HttpStatus;
 import org.apache.http.NameValuePair;
 import org.apache.http.auth.UsernamePasswordCredentials;

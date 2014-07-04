@@ -4,12 +4,10 @@ package com.excalibur.core.util;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.JavaType;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.nd.hy.android.core.data.ContentValueProcessor;
 
 /**
  * Utility methods for Objects
  *
- * @author Foxykeep
  */
 public final class ObjectUtils {
 

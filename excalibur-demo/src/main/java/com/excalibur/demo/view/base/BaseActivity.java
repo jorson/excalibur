@@ -1,14 +1,13 @@
 package com.excalibur.demo.view.base;
 
 import android.os.Bundle;
-import com.nd.hy.android.frame.base.Request;
-import com.nd.hy.android.frame.view.RequestProxy;
-import com.nd.hy.android.frame.view.RequestResultListener;
-import com.nd.hy.android.frame.view.SweetActivity;
-import com.nd.hy.android.hermes.demo.service.AppRequestManager;
+import com.excalibur.frame.base.Request;
+import com.excalibur.frame.view.RequestProxy;
+import com.excalibur.frame.view.RequestResultListener;
+import com.excalibur.frame.view.SweetActivity;
+import com.excalibur.demo.service.AppRequestManager;
 
 /**
- * @author Yangz
  * @version 14-5-20
  */
 public abstract class BaseActivity extends SweetActivity implements RequestResultListener {

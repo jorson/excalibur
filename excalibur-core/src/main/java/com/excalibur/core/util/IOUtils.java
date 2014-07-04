@@ -1,18 +1,12 @@
 package com.excalibur.core.util;
 
-import static com.nd.hy.android.core.base.Constants.*;
-import static com.nd.hy.android.core.base.Constants.BUFFER_SIZE;
-import static com.nd.hy.android.core.base.Constants.UTF8;
-
 import java.io.ByteArrayOutputStream;
 import java.io.Closeable;
 import java.io.IOException;
 import java.io.InputStream;
 
-/**
- * @author Yangz
- * @version 14-5-19
- */
+import static com.excalibur.core.base.Constants.*;
+
 public class IOUtils {
 
     public static void silentlyClose(Closeable... closeables) {

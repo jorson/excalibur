@@ -2,7 +2,7 @@ package com.excalibur.frame.base;
 
 import android.content.Context;
 import android.os.Bundle;
-import com.nd.hy.android.core.base.HermesException;
+import com.excalibur.core.base.ExcaliburException;
 
 /**
  * Interface to implement by your operations
@@ -17,5 +17,5 @@ public interface Operation {
      * @param request The request to execute.
      * @return A {@link android.os.Bundle} containing the data to return. If no data to return, null.
      */
-    public Bundle execute(Context context, Request request) throws HermesException;
+    public Bundle execute(Context context, Request request) throws ExcaliburException;
 }

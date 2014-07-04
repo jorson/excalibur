@@ -1,14 +1,13 @@
 package com.excalibur.frame.view;
 
 import android.os.Bundle;
-import com.nd.hy.android.frame.base.Request;
-import com.nd.hy.android.frame.manager.RequestManager;
-import com.nd.hy.android.frame.base.RequestConstants;
+import com.excalibur.frame.base.Request;
+import com.excalibur.frame.base.RequestConstants;
+import com.excalibur.frame.manager.RequestManager;
 
 import java.util.ArrayList;
 
 /**
- * @author Yangz
  *         Date: 13-6-4
  */
 public class RequestProxy implements RequestManager.RequestListener {

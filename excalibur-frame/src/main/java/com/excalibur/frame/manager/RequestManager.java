@@ -7,11 +7,11 @@ import android.os.Handler;
 import android.os.Looper;
 import android.os.ResultReceiver;
 import android.support.v4.util.LruCache;
-import com.nd.hy.android.core.util.Ln;
-import com.nd.hy.android.frame.base.Request;
-import com.nd.hy.android.frame.service.MultiThreadedIntentService;
-import com.nd.hy.android.frame.base.RequestConstants;
-import com.nd.hy.android.frame.service.RequestService;
+import com.excalibur.core.util.Ln;
+import com.excalibur.frame.base.Request;
+import com.excalibur.frame.base.RequestConstants;
+import com.excalibur.frame.service.MultiThreadedIntentService;
+import com.excalibur.frame.service.RequestService;
 
 import java.lang.ref.WeakReference;
 import java.util.*;

@@ -3,8 +3,8 @@ package com.excalibur.core.platform;
 import android.app.Activity;
 import android.app.Application;
 import android.content.pm.ApplicationInfo;
-import com.nd.hy.android.core.device.sdcard.SdCardStatus;
-import com.nd.hy.android.core.net.state.NetStateManager;
+import com.excalibur.core.device.sdcard.SdCardStatus;
+import com.excalibur.core.net.state.NetStateManager;
 
 import java.io.File;
 import java.lang.ref.WeakReference;

@@ -35,8 +35,8 @@ import android.view.Display;
 import android.view.Window;
 import android.view.WindowManager;
 import android.view.inputmethod.InputMethodManager;
-import com.nd.hy.android.core.base.Constants;
-import com.nd.hy.android.core.util.Ln;
+import com.excalibur.core.base.Constants;
+import com.excalibur.core.util.Ln;
 
 import java.io.File;
 import java.lang.reflect.Field;
@@ -44,8 +44,6 @@ import java.util.List;
 
 /**
  * AndroidUtil
- *
- * @author Yangz imported.
  */
 public class AndroidUtil {
 

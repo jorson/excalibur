@@ -1,9 +1,9 @@
 package com.excalibur.core.net.http.base;
 
-import com.nd.hy.android.core.base.Constants;
-import com.nd.hy.android.core.net.http.exception.ConnectionException;
-import com.nd.hy.android.core.util.IOUtils;
-import com.nd.hy.android.core.util.Ln;
+import com.excalibur.core.base.Constants;
+import com.excalibur.core.net.http.exception.ConnectionException;
+import com.excalibur.core.util.IOUtils;
+import com.excalibur.core.util.Ln;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.http.Header;
 import org.apache.http.HttpEntity;

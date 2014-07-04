@@ -3,7 +3,6 @@ package com.excalibur.core.device.sdcard;
 /**
  * Sd
  *
- * @author:lix Date :13-4-17
  */
 
 import android.os.Environment;

@@ -5,7 +5,6 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import java.io.Serializable;
 
 /**
- * @author Yangz
  * @version 14-5-22
  */
 public class City implements Serializable{

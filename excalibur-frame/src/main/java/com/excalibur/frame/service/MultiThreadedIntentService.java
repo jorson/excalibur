@@ -5,9 +5,9 @@ import android.content.Intent;
 import android.os.Handler;
 import android.os.IBinder;
 import android.os.Looper;
-import com.nd.hy.android.frame.base.Priority;
-import com.nd.hy.android.frame.service.priority.PriorityRunnable;
-import com.nd.hy.android.frame.service.priority.PriorityThreadPoolExecutor;
+import com.excalibur.frame.base.Priority;
+import com.excalibur.frame.service.priority.PriorityRunnable;
+import com.excalibur.frame.service.priority.PriorityThreadPoolExecutor;
 
 import java.util.ArrayList;
 import java.util.concurrent.Future;

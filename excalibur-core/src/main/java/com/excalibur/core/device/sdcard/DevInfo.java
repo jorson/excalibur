@@ -3,7 +3,6 @@ package com.excalibur.core.device.sdcard;
 /**
  * DevInfo
  *
- * @author:lix Date :13-4-17
  */
 public class DevInfo {
     private String label, mount_point, path, sysfs_path;

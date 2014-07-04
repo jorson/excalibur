@@ -1,26 +1,22 @@
 package com.excalibur.demo.biz.operation;
 
-import static com.nd.hy.android.hermes.demo.biz.base.Protocol.*;
-import static com.nd.hy.android.hermes.demo.biz.base.Protocol.APP_KEY;
-import static com.nd.hy.android.hermes.demo.biz.base.Protocol.DATA_FORMAT;
-import static com.nd.hy.android.hermes.demo.biz.base.Protocol.SIGN;
-import static com.nd.hy.android.hermes.demo.biz.base.Protocol.WEATHER_API_URL;
-
 import android.content.Context;
 import android.os.Bundle;
-import com.nd.hy.android.core.base.HermesException;
-import com.nd.hy.android.core.net.http.HttpRequest;
-import com.nd.hy.android.core.net.http.base.ConnectionResult;
-import com.nd.hy.android.core.util.ObjectUtils;
-import com.nd.hy.android.frame.base.Operation;
-import com.nd.hy.android.frame.base.Priority;
-import com.nd.hy.android.frame.base.Request;
-import com.nd.hy.android.hermes.demo.biz.base.BundleKey;
-import com.nd.hy.android.hermes.demo.biz.model.BaseArrayEntry;
-import com.nd.hy.android.hermes.demo.biz.model.WeatherDetail;
+import com.excalibur.core.base.ExcaliburException;
+import com.excalibur.core.net.http.HttpRequest;
+import com.excalibur.core.net.http.base.ConnectionResult;
+import com.excalibur.core.util.ObjectUtils;
+import com.excalibur.frame.base.Operation;
+import com.excalibur.frame.base.Priority;
+import com.excalibur.frame.base.Request;
+import com.excalibur.demo.biz.base.BundleKey;
+import com.excalibur.demo.biz.model.BaseArrayEntry;
+import com.excalibur.demo.biz.model.WeatherDetail;
 
 import java.io.IOException;
 import java.util.ArrayList;
+
+import static com.excalibur.demo.biz.base.Protocol.*;
 
 /**
  * @author Yangz
@@ -38,7 +34,7 @@ public class GetWeatherFutureOperation implements Operation {
 
 
     @Override
-    public Bundle execute(Context context, Request request) throws HermesException {
+    public Bundle execute(Context context, Request request) throws ExcaliburException {
         String weaId = request.getString(BundleKey.WEA_ID);
         ConnectionResult result = HttpRequest.get(WEATHER_API_URL)
                 .addParam(Field.APP, Command.WEATHER_FUTURE)

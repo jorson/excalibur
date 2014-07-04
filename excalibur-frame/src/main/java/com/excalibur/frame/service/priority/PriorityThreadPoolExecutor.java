@@ -1,6 +1,6 @@
 package com.excalibur.frame.service.priority;
 
-import com.nd.hy.android.core.util.Ln;
+import com.excalibur.core.util.Ln;
 
 import java.util.concurrent.*;
 

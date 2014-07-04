@@ -5,12 +5,12 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.text.TextUtils;
 import android.util.Base64;
-import com.nd.hy.android.core.base.Constants;
-import com.nd.hy.android.core.net.http.base.ConnectionResult;
-import com.nd.hy.android.core.net.http.base.Method;
-import com.nd.hy.android.core.net.http.exception.ConnectionException;
-import com.nd.hy.android.core.util.IOUtils;
-import com.nd.hy.android.core.util.Ln;
+import com.excalibur.core.base.Constants;
+import com.excalibur.core.net.http.base.ConnectionResult;
+import com.excalibur.core.net.http.base.Method;
+import com.excalibur.core.net.http.exception.ConnectionException;
+import com.excalibur.core.util.IOUtils;
+import com.excalibur.core.util.Ln;
 import org.apache.http.NameValuePair;
 import org.apache.http.auth.UsernamePasswordCredentials;
 

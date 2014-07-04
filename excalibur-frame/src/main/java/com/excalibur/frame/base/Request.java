@@ -1,7 +1,5 @@
 package com.excalibur.frame.base;
 
-import static com.nd.hy.android.core.util.ObjectUtils.safeEquals;
-
 import android.os.Bundle;
 import android.os.Parcel;
 import android.os.Parcelable;
@@ -9,12 +7,12 @@ import android.os.Parcelable;
 import java.io.Serializable;
 import java.util.ArrayList;
 
+import static com.excalibur.core.util.ObjectUtils.safeEquals;
+
 
 /**
  * Class used to store your request information : request type as well as parameters.
  *
- * @author Foxykeep
- * @author Yangz
  */
 public class Request implements Parcelable {
 

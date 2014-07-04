@@ -5,8 +5,8 @@ import android.database.Cursor;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JavaType;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.nd.hy.android.core.util.Ln;
-import com.nd.hy.android.core.util.ObjectUtils;
+import com.excalibur.core.util.Ln;
+import com.excalibur.core.util.ObjectUtils;
 
 import java.io.IOException;
 import java.lang.reflect.Field;
@@ -18,8 +18,6 @@ import java.util.List;
 /**
  * ContentValueProcessor
  * Date: 14-2-18
- *
- * @author Yangz
  */
 public class ContentValueProcessor {
 

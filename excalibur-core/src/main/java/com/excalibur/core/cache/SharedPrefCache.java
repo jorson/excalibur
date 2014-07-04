@@ -4,15 +4,10 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.nd.hy.android.core.util.Ln;
+import com.excalibur.core.util.Ln;
 
 import java.io.IOException;
 
-/**
- * SharedPrefCache
- * User: Twinkle
- * Date: 13-4-7
- */
 public class SharedPrefCache<K, V> implements ICache<K, V> {
 
     private SharedPreferences  mSharedPref;

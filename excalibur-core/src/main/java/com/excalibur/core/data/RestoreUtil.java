@@ -1,13 +1,11 @@
 package com.excalibur.core.data;
 
 import android.os.Bundle;
-import com.nd.hy.android.core.util.ObjectUtils;
 
 import java.io.Serializable;
 import java.lang.reflect.Field;
 
 /**
- * @author Yangz
  * @version 14-5-21
  */
 public final class RestoreUtil {

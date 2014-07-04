@@ -1,12 +1,12 @@
 package com.excalibur.core.net.http;
 
 import android.content.Context;
-import com.nd.hy.android.core.base.HermesException;
-import com.nd.hy.android.core.base.SafeAsyncTask;
-import com.nd.hy.android.core.net.http.base.ConnectionResult;
-import com.nd.hy.android.core.net.http.base.Method;
-import com.nd.hy.android.core.net.http.base.Params;
-import com.nd.hy.android.core.net.http.exception.ConnectionException;
+import com.excalibur.core.base.ExcaliburException;
+import com.excalibur.core.base.SafeAsyncTask;
+import com.excalibur.core.net.http.base.ConnectionResult;
+import com.excalibur.core.net.http.base.Method;
+import com.excalibur.core.net.http.base.Params;
+import com.excalibur.core.net.http.exception.ConnectionException;
 
 import java.util.HashMap;
 
@@ -81,8 +81,8 @@ public class HttpRequest {
             @Override
             protected void onException(Exception e) throws RuntimeException {
                 super.onException(e);
-                if (e instanceof HermesException) {
-                    listener.onFailure((HermesException) e);
+                if (e instanceof ExcaliburException) {
+                    listener.onFailure((ExcaliburException) e);
                 }
             }
         }.execute();
@@ -91,7 +91,7 @@ public class HttpRequest {
     public static interface RequestListener<T> {
         void onSuccess(T result);
 
-        void onFailure(HermesException he);
+        void onFailure(ExcaliburException he);
     }
 
 }

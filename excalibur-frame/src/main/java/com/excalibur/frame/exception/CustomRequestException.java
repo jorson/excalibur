@@ -1,8 +1,8 @@
 package com.excalibur.frame.exception;
 
 import android.os.Bundle;
-import com.nd.hy.android.core.base.HermesException;
-import com.nd.hy.android.frame.base.Request;
+import com.excalibur.core.base.ExcaliburException;
+import com.excalibur.frame.base.Request;
 
 /**
  * Thrown to indicate that a custom exception occurred.
@@ -11,7 +11,7 @@ import com.nd.hy.android.frame.base.Request;
  *
  * @author Foxykeep
  */
-public abstract class CustomRequestException extends HermesException {
+public abstract class CustomRequestException extends ExcaliburException {
 
     private static final long serialVersionUID = 4658308128254827562L;
 

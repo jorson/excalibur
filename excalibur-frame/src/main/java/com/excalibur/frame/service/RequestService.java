@@ -3,14 +3,15 @@ package com.excalibur.frame.service;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.ResultReceiver;
-import com.nd.hy.android.core.base.HermesException;
-import com.nd.hy.android.core.net.http.exception.ConnectionException;
-import com.nd.hy.android.core.util.Ln;
-import com.nd.hy.android.frame.base.Operation;
-import com.nd.hy.android.frame.base.Request;
-import com.nd.hy.android.frame.base.RequestConstants;
-import com.nd.hy.android.frame.exception.CustomRequestException;
-import com.nd.hy.android.frame.exception.DataException;
+import com.excalibur.core.base.ExcaliburException;
+import com.excalibur.core.net.http.exception.ConnectionException;
+import com.excalibur.core.util.Ln;
+import com.excalibur.frame.base.Operation;
+import com.excalibur.frame.base.Request;
+import com.excalibur.frame.base.RequestConstants;
+import com.excalibur.frame.exception.CustomRequestException;
+import com.excalibur.frame.exception.DataException;
+import com.excalibur.frame.manager.RequestManager;
 
 /**
  * This class is the superclass of all the worker services you'll create.
@@ -79,7 +80,7 @@ public abstract class RequestService extends MultiThreadedIntentService {
     }
 
     /**
-     * Method used to send back the result to the {@link RequestManager}.
+     * Method used to send back the result to the {@link com.excalibur.frame.manager.RequestManager}.
      *
      * @param receiver The result receiver received inside the {@link android.content.Intent}.
      * @param data     A {@link android.os.Bundle} the data to send back.
@@ -121,8 +122,8 @@ public abstract class RequestService extends MultiThreadedIntentService {
         } catch (CustomRequestException e) {
             Ln.e(e, "Custom Exception");
             sendCustomFailure(receiver, onCustomRequestException(request, e));
-        } catch (HermesException e) {
-            Ln.e(e, "Hermes Exception");
+        } catch (ExcaliburException e) {
+            Ln.e(e, "Excalibur Exception");
             sendConnexionFailure(receiver, ConnectionException.DEFAULT);
         } catch (RuntimeException e) {
             Ln.e(e, "RuntimeException");

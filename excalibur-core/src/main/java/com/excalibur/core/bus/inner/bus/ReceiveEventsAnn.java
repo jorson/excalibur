@@ -1,7 +1,8 @@
 package com.excalibur.core.bus.inner.bus;
 
-import com.nd.hy.android.core.bus.ann.ReceiveEvents;
-import com.nd.hy.android.core.bus.inner.base.Ann;
+
+import com.excalibur.core.bus.ann.ReceiveEvents;
+import com.excalibur.core.bus.inner.base.Ann;
 
 import static org.apache.commons.lang3.StringUtils.isEmpty;
 

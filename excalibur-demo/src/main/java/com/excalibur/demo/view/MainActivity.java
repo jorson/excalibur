@@ -7,16 +7,16 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.TextView;
-import com.nd.hy.android.core.view.adapter.SimpleListAdapter;
-import com.nd.hy.android.core.view.inject.InjectView;
-import com.nd.hy.android.core.view.inject.ViewInjectUtils;
-import com.nd.hy.android.frame.base.Request;
-import com.nd.hy.android.hermes.demo.R;
-import com.nd.hy.android.hermes.demo.biz.IntentUtil;
-import com.nd.hy.android.hermes.demo.biz.base.BundleKey;
-import com.nd.hy.android.hermes.demo.biz.model.City;
-import com.nd.hy.android.hermes.demo.biz.operation.GetCityListOperation;
-import com.nd.hy.android.hermes.demo.view.base.BaseActivity;
+import com.excalibur.core.view.adapter.SimpleListAdapter;
+import com.excalibur.core.view.inject.InjectView;
+import com.excalibur.core.view.inject.ViewInjectUtils;
+import com.excalibur.frame.base.Request;
+import com.excalibur.demo.R;
+import com.excalibur.demo.biz.IntentUtil;
+import com.excalibur.demo.biz.base.BundleKey;
+import com.excalibur.demo.biz.model.City;
+import com.excalibur.demo.biz.operation.GetCityListOperation;
+import com.excalibur.demo.view.base.BaseActivity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -24,7 +24,6 @@ import java.util.List;
 /**
  * 演示从sendRequest到获取结果并展现City列表的过程
  *
- * @author Yangz
  * @version 14-5-20
  */
 public class MainActivity extends BaseActivity implements AdapterView.OnItemClickListener {

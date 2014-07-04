@@ -8,7 +8,6 @@ import java.lang.annotation.Target;
 /**
  * InjectView
  *
- * @author Yangz
  *         Date: 2013-7-28
  */
 @Target(ElementType.FIELD)

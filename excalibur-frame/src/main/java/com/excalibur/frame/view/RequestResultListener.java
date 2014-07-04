@@ -1,11 +1,10 @@
 package com.excalibur.frame.view;
 
 import android.os.Bundle;
-import com.nd.hy.android.frame.base.Request;
+import com.excalibur.frame.base.Request;
 
 /**
- * @author Yangz
- *         Date: 13-5-19
+ * Date: 13-5-19
  */
 public interface RequestResultListener {
 

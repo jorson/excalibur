@@ -2,7 +2,7 @@ package com.excalibur.core.device;
 
 import android.content.Context;
 import android.util.TypedValue;
-import com.nd.hy.android.core.util.IOUtils;
+import com.excalibur.core.util.IOUtils;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -11,7 +11,6 @@ import java.util.Arrays;
 /**
  * ResourceUtils
  *
- * @author Yangz imported.
  */
 public final class ResourceUtils {
 

@@ -2,7 +2,7 @@ package com.excalibur.core.device.sdcard;
 
 import android.content.Context;
 import android.os.Environment;
-import com.nd.hy.android.core.util.Ln;
+import com.excalibur.core.util.Ln;
 
 import java.io.File;
 

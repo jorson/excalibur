@@ -3,7 +3,6 @@ package com.excalibur.demo.biz.model;
 import java.util.List;
 
 /**
- * @author Yangz
  * @version 14-5-22
  */
 public class BaseArrayEntry<T> {

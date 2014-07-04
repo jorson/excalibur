@@ -1,9 +1,9 @@
 package com.excalibur.demo.service;
 
 import android.os.Bundle;
-import com.nd.hy.android.frame.base.Request;
-import com.nd.hy.android.frame.exception.CustomRequestException;
-import com.nd.hy.android.frame.service.RequestService;
+import com.excalibur.frame.base.Request;
+import com.excalibur.frame.exception.CustomRequestException;
+import com.excalibur.frame.service.RequestService;
 
 /**
  * This class is called by the {@link AppRequestManager} through the {@link android.content.Intent} system.

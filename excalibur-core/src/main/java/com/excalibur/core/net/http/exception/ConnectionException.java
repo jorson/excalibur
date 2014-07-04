@@ -1,13 +1,13 @@
 package com.excalibur.core.net.http.exception;
 
-import com.nd.hy.android.core.base.HermesException;
+import com.excalibur.core.base.ExcaliburException;
 
 /**
  * Thrown to indicate that a connection error occurred.
  *
  * @author Foxykeep
  */
-public final class ConnectionException extends HermesException {
+public final class ConnectionException extends ExcaliburException {
 
     private static final long serialVersionUID = 4658308128254827562L;
 

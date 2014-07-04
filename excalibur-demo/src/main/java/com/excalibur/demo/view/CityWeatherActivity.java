@@ -6,22 +6,21 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
 import android.widget.TextView;
-import com.nd.hy.android.core.data.Restore;
-import com.nd.hy.android.core.view.adapter.SimpleListAdapter;
-import com.nd.hy.android.core.view.inject.InjectView;
-import com.nd.hy.android.core.view.inject.ViewInjectUtils;
-import com.nd.hy.android.frame.base.Request;
-import com.nd.hy.android.hermes.demo.R;
-import com.nd.hy.android.hermes.demo.biz.base.BundleKey;
-import com.nd.hy.android.hermes.demo.biz.model.City;
-import com.nd.hy.android.hermes.demo.biz.model.WeatherDetail;
-import com.nd.hy.android.hermes.demo.biz.operation.GetWeatherFutureOperation;
-import com.nd.hy.android.hermes.demo.view.base.BaseActivity;
+import com.excalibur.core.data.Restore;
+import com.excalibur.core.view.adapter.SimpleListAdapter;
+import com.excalibur.core.view.inject.InjectView;
+import com.excalibur.core.view.inject.ViewInjectUtils;
+import com.excalibur.frame.base.Request;
+import com.excalibur.demo.R;
+import com.excalibur.demo.biz.base.BundleKey;
+import com.excalibur.demo.biz.model.City;
+import com.excalibur.demo.biz.model.WeatherDetail;
+import com.excalibur.demo.biz.operation.GetWeatherFutureOperation;
+import com.excalibur.demo.view.base.BaseActivity;
 
 import java.util.List;
 
 /**
- * @author Yangz
  * @version 14-5-22
  */
 public class CityWeatherActivity extends BaseActivity {

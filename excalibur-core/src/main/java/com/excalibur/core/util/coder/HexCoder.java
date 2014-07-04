@@ -3,8 +3,6 @@ package com.excalibur.core.util.coder;
 /**
  * HexCoder
  * <p/>
- *
- * @author Twinkle
  */
 public class HexCoder {
 

@@ -2,17 +2,16 @@ package com.excalibur.frame.view;
 
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
-import com.nd.hy.android.core.bus.EventBus;
-import com.nd.hy.android.core.data.RestoreUtil;
-import com.nd.hy.android.core.platform.App;
-import com.nd.hy.android.core.util.Ln;
-import com.nd.hy.android.core.view.inject.ViewInjectUtils;
-import com.nd.hy.android.frame.base.Request;
+import com.excalibur.core.bus.EventBus;
+import com.excalibur.core.data.RestoreUtil;
+import com.excalibur.core.platform.App;
+import com.excalibur.core.util.Ln;
+import com.excalibur.core.view.inject.ViewInjectUtils;
+import com.excalibur.frame.base.Request;
 
 /**
  * SweetActivity
  *
- * @author Yangz
  *         Date: 13-5-15
  */
 public abstract class SweetActivity extends FragmentActivity {

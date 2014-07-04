@@ -1,7 +1,20 @@
 package com.excalibur.core.base;
 
-/**
- * Created by Administrator on 14-7-1.
- */
-public class ExcaliburException {
+public class ExcaliburException extends Exception {
+
+    public ExcaliburException() {
+        super();
+    }
+
+    public ExcaliburException(java.lang.String detailMessage) {
+        super(detailMessage);
+    }
+
+    public ExcaliburException(java.lang.String detailMessage, java.lang.Throwable throwable) {
+        super(detailMessage, throwable);
+    }
+
+    public ExcaliburException(java.lang.Throwable throwable) {
+        super(throwable);
+    }
 }

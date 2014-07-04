@@ -3,7 +3,7 @@ package com.excalibur.demo.biz.model;
 import com.fasterxml.jackson.core.JsonParseException;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.nd.hy.android.core.util.ObjectUtils;
+import com.excalibur.core.util.ObjectUtils;
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -13,7 +13,6 @@ import java.util.Iterator;
 import java.util.List;
 
 /**
- * @author Yangz
  * @version 14-5-22
  */
 public class WeatherCityEntry {

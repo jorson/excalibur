@@ -1,6 +1,6 @@
 package com.excalibur.demo;
 
-import com.nd.hy.android.core.platform.App;
+import com.excalibur.core.platform.App;
 
 /**
  * @author Yangz

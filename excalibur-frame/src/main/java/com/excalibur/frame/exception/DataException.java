@@ -1,13 +1,13 @@
 package com.excalibur.frame.exception;
 
-import com.nd.hy.android.core.base.HermesException;
+import com.excalibur.core.base.ExcaliburException;
 
 /**
  * Thrown to indicate that a compulsory parameter is missing.
  *
  * @author Foxykeep
  */
-public final class DataException extends HermesException {
+public final class DataException extends ExcaliburException {
 
     private static final long serialVersionUID = -6031863210486494461L;
 

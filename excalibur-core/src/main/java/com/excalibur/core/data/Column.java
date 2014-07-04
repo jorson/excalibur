@@ -8,8 +8,6 @@ import java.lang.annotation.Target;
 /**
  * Column
  * Date: 14-2-18
- *
- * @author Yangz
  */
 @Target(ElementType.FIELD)
 @Retention(RetentionPolicy.RUNTIME)

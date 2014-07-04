@@ -1,7 +1,6 @@
 package com.excalibur.demo.biz.base;
 
 /**
- * @author Yangz
  * @version 14-5-22
  */
 public class Protocol {

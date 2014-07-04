@@ -6,7 +6,7 @@ import android.database.Cursor;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.net.Uri;
-import com.nd.hy.android.core.util.Ln;
+import com.excalibur.core.util.Ln;
 import org.apache.commons.lang3.StringUtils;
 import org.apache.http.HttpHost;
 

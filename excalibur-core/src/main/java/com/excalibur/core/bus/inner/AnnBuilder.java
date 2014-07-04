@@ -1,7 +1,7 @@
 package com.excalibur.core.bus.inner;
 
-import com.nd.hy.android.core.bus.ann.ReceiveEvents;
-import com.nd.hy.android.core.bus.inner.bus.ReceiveEventsAnn;
+import com.excalibur.core.bus.ann.ReceiveEvents;
+import com.excalibur.core.bus.inner.bus.ReceiveEventsAnn;
 
 import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;

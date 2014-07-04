@@ -10,7 +10,6 @@ import java.util.TimeZone;
  * Formatter
  * Date: 14-3-12
  *
- * @author Yangz
  */
 public class Formatter {
 
